@@ -117,3 +117,18 @@ var swiper = new Swiper(".mySwiper1", {
 });
 
 
+// const lists = document.getElementById('lists');
+// const button = document.getElementById('butt');
+
+// button.onmouseover=gone=()=>{
+//   lists.classList.toggle('.list-visible')
+// }
+
+
+const cont = document.getElementById("list");
+
+function tog(){
+    cont.classList.toggle("list-visibe")
+}
+
+
